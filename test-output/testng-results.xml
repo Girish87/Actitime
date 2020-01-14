@@ -2,48 +2,30 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
     <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
-    </line>
-    <line>
-      <![CDATA[Version is matching]]>
-    </line>
-    <line>
-      <![CDATA[Title is matching]]>
+      <![CDATA[Element is visible]]>
     </line>
   </reporter-output>
-  <suite name="Default suite" duration-ms="22594" started-at="2019-10-13T16:32:50Z" finished-at="2019-10-13T16:33:13Z">
+  <suite name="Default suite" duration-ms="485483" started-at="2020-01-14T15:07:54Z" finished-at="2020-01-14T15:15:59Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="22594" started-at="2019-10-13T16:32:50Z" finished-at="2019-10-13T16:33:13Z">
-      <class name="scripts.VerifyActitimeVersion">
-        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.VerifyActitimeVersion@d2cc05a]" name="openApplication" is-config="true" duration-ms="9869" started-at="2019-10-13T22:02:50Z" finished-at="2019-10-13T22:03:00Z">
+    <test name="Default test" duration-ms="485483" started-at="2020-01-14T15:07:54Z" finished-at="2020-01-14T15:15:59Z">
+      <class name="scripts.InvalidLogin">
+        <test-method status="PASS" signature="openApplication()[pri:0, instance:scripts.InvalidLogin@72a7c7e0]" name="openApplication" is-config="true" duration-ms="30170" started-at="2020-01-14T20:37:54Z" finished-at="2020-01-14T20:38:24Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openApplication -->
-        <test-method status="PASS" signature="testVerifyVersion()[pri:0, instance:scripts.VerifyActitimeVersion@d2cc05a]" name="testVerifyVersion" duration-ms="9594" started-at="2019-10-13T22:03:00Z" finished-at="2019-10-13T22:03:09Z">
+        <test-method status="PASS" signature="testInvalidLogin()[pri:0, instance:scripts.InvalidLogin@72a7c7e0]" name="testInvalidLogin" duration-ms="372734" started-at="2020-01-14T20:38:24Z" finished-at="2020-01-14T20:44:37Z">
           <reporter-output>
             <line>
-              <![CDATA[Title is matching]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
-            </line>
-            <line>
-              <![CDATA[Version is matching]]>
-            </line>
-            <line>
-              <![CDATA[Title is matching]]>
+              <![CDATA[Element is visible]]>
             </line>
           </reporter-output>
-        </test-method> <!-- testVerifyVersion -->
-        <test-method status="PASS" signature="closeApplication()[pri:0, instance:scripts.VerifyActitimeVersion@d2cc05a]" name="closeApplication" is-config="true" duration-ms="3082" started-at="2019-10-13T22:03:09Z" finished-at="2019-10-13T22:03:13Z">
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:scripts.InvalidLogin@72a7c7e0]" name="closeApplication" is-config="true" duration-ms="2380" started-at="2020-01-14T20:44:47Z" finished-at="2020-01-14T20:44:49Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeApplication -->
-      </class> <!-- scripts.VerifyActitimeVersion -->
+      </class> <!-- scripts.InvalidLogin -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

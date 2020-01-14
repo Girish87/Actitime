@@ -24,6 +24,7 @@ public class ValidLoginLogout extends BaseTest
 		homePage.verifyHomePage(homePageTitle);
 		homePage.clickLogout();		
 		login.verifyLoginPage(loginPageTitle);
+		//Valid Login Commit
 	}
 
 }
